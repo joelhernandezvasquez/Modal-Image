@@ -56,6 +56,27 @@ input[class="adjust-image"]:hover
   
    
 }
+.zooming-image
+{
+    display:block;
+}
+
+.zoom-animation
+{
+  animation: zoom 0.5s ;
+}
+
+@keyframes zoom
+{
+    0% 
+    {
+        transform: scale(0);
+    }
+    100%
+    {
+        transform:scale(1);
+    }
+}
 
 
 
